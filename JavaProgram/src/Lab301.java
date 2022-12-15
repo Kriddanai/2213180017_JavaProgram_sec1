@@ -17,7 +17,7 @@ public class Lab301 {
 		if(memberCard == 0) {
 			totalPricewithdiscount = totalPrice*90/100; //totalPrice+(totalPrice*10/100)
 			JOptionPane.showMessageDialog(null,"Amount to be paid is "+
-			frm.Format(totalPricewithdiscount)+"bath.");
+			(totalPricewithdiscount)+"bath.");
 		}
 		else if (memberCard == 1) {
 			JOptionPane.showMessageDialog(null, "Amount to be paid is "
